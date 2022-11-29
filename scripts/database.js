@@ -163,5 +163,5 @@ export const getCities = () => {
 };
 
 export const getWalkerCities = () => {
-  return database.walkerCities.map((city) => ({ ...city }));
+  return database.walkerCities.map((walkerCity) => ({ ...walkerCity }));
 };

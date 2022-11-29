@@ -1,5 +1,4 @@
 import { getWalkers } from "./database.js";
-import { RegisteredPets } from "./RegisteredPets.js";
 
 const walkers = getWalkers();
 
